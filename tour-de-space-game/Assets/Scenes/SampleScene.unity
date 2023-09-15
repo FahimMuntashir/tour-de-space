@@ -520,6 +520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1268444322}
   - component: {fileID: 1268444323}
+  - component: {fileID: 1268444325}
   - component: {fileID: 1268444324}
   m_Layer: 0
   m_Name: Player
@@ -580,11 +581,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1268444321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3257d3f6565b54e4cba0149c4b4058dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 8119c1c69ba1c304e9fc36ab6b1c26b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  lookSpeed: 2
+  cam: {fileID: 2061934043}
+  xSensitivity: 30
+  ySensitivity: 30
+--- !u!114 &1268444325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268444321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3496aa2a74e4a4d8bf3fe46f8ba059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crouchTimer: 0
+  speed: 5
+  gravity: -9.8
+  jumpHeight: 1
 --- !u!1 &2061934040
 GameObject:
   m_ObjectHideFlags: 0
