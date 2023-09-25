@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 168203400}
   - component: {fileID: 168203402}
   - component: {fileID: 168203401}
+  - component: {fileID: 168203403}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -215,6 +216,21 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &168203403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168203399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a193224933f4a6b4f96240edd1115ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensX: 400
+  sensY: 400
+  orientation: {fileID: 1854968626}
 --- !u!1 &566388546
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,9 +243,9 @@ GameObject:
   - component: {fileID: 566388549}
   - component: {fileID: 566388548}
   - component: {fileID: 566388547}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -530,6 +546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1395622990}
+  - component: {fileID: 1395622991}
   m_Layer: 0
   m_Name: CameraHolder
   m_TagString: Untagged
@@ -553,6 +570,19 @@ Transform:
   - {fileID: 168203400}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1395622991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395622989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d7cd7a91b46c84d82c224570b31fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraPosition: {fileID: 1642380638}
 --- !u!1 &1642380637
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,9 +655,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2076103975}
   - component: {fileID: 2076103974}
+  - component: {fileID: 2076103976}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -677,6 +708,31 @@ Transform:
   - {fileID: 1642380638}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2076103976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076103973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a0d1a3abe860748aa5b93438df129d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 7
+  groundDrag: 3
+  jumpForce: 5
+  jumpCooldown: 3
+  airMultiplier: 1
+  walkSpeed: 0
+  sprintSpeed: 0
+  jumpKey: 32
+  playerHeight: 1
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 8
+  orientation: {fileID: 1854968626}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
