@@ -4,26 +4,33 @@ using UnityEngine;
 
 public class PlayerLook : MonoBehaviour
 {
-    public float sensitivity = 2.0f;
-    private Transform playerTransform;
+    public float sensX;
+    public float sensY;
 
-    private float rotationX = 0;
+    public Transform orientation;
 
+    float xRotation;
+    float yRotation;
+
+    // Start is called before the first frame update
     void Start()
     {
-        playerTransform = transform.parent;
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
+    // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity;
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity;
+        float MouseX = Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
+        float MouseY = Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
 
-        rotationX -= mouseY;
-        rotationX = Mathf.Clamp(rotationX, -90, 90);
+        yRotation -= MouseX;
+        xRotation -= MouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-        playerTransform.Rotate(Vector3.up * mouseX);
+        // rotate cam and orientation
+        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0f);
+        orientation.rotation = Quaternion.Euler(0f, yRotation, 0f);
     }
 }
