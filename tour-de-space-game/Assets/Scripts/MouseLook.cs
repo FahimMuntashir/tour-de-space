@@ -5,7 +5,7 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour
 {   
     public float mouseSensitivity = 100f;
-    public Trabsform playerBody;
+    public Transform playerBody;
 
     float xRotation = 0f;
     // Start is called before the first frame update
@@ -22,6 +22,7 @@ public class MouseLook : MonoBehaviour
 
         xRotation -= mouseY;
 
+        transform.localRotation = Quternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
     }
 }
