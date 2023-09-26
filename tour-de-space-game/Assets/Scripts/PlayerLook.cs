@@ -25,7 +25,7 @@ public class PlayerLook : MonoBehaviour
         float MouseX = Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
         float MouseY = Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
 
-        yRotation -= MouseX;
+        yRotation += MouseX;
         xRotation -= MouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
