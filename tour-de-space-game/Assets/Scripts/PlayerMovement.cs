@@ -76,6 +76,8 @@ public class PlayerMovement : MonoBehaviour
         // calculate movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
+        controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+
         //Jump 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
