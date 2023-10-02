@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Mars_Level.unity
+    guid: d708e16b6aa5b214ea01de518e176fd1
   m_configObjects: {}
