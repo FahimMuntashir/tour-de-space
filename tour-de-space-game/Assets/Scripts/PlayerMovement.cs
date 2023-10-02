@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if(Input.GetButtonDown("Q"))
+        if(Input.GetKey("escape"))
         {
             SceneManager.LoadScene(0);
         }
