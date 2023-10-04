@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
     public GameObject[] Levels;
-    public GameObject ResetScreen,End; 
+    public GameObject ResetScreen;
+    public int NextSceneNumber; 
 
     int currentLevel;
 
@@ -31,7 +33,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            End.SetActive(true);
+            SceneManager.LoadScene(NextSceneNumber);
             Levels[currentLevel].SetActive(false);
         }
     }
