@@ -307,7 +307,7 @@ MonoBehaviour:
   - {fileID: 1562080334}
   - {fileID: 776931242}
   - {fileID: 985869867}
-  ResetScreen: {fileID: 0}
+  ResetScreen: {fileID: 1917839093}
   NextSceneNumber: 0
 --- !u!1 &211207648
 GameObject:
@@ -391,7 +391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 211207651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &211207651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2118,7 +2130,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 698796852}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &698796852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2239,7 +2263,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 703431750}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &703431750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2440,7 +2476,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 794458415}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &794458415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3190,7 +3238,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 961994724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &961994724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3311,7 +3371,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 984603653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &984603653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3913,7 +3985,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1129962582}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1129962582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4244,7 +4328,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1296757772}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: correctAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1296757772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4768,7 +4864,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1540586037}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1540586037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4889,7 +4997,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1549214761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: correctAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1549214761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5223,7 +5343,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1591670554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1591670554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5612,7 +5744,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1619114673}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1619114673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5867,7 +6011,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1668698525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1668698525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6122,7 +6278,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1723782543}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: correctAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1723782543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6243,7 +6411,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1755806127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: wrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1755806127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7311,7 +7491,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2067851292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145080029}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: correctAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2067851292
 MonoBehaviour:
   m_ObjectHideFlags: 0
