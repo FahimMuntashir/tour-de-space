@@ -131,9 +131,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 597030588545084296, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: 5 billion years
+      objectReference: {fileID: 0}
     - target: {fileID: 1590119360375151380, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_Name
       value: Quiz
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801394046616611843, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2732598439878485250, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
@@ -143,14 +151,27 @@ PrefabInstance:
       propertyPath: m_text
       value: ' New Moon'
       objectReference: {fileID: 0}
+    - target: {fileID: 4067831508067986379, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Copernicus Crater is known for its relatively young age compared to
+        other lunar craters. Approximately how old is Copernicus Crater?
+      objectReference: {fileID: 0}
     - target: {fileID: 4153604159000111738, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: Copernicus Crater is easily visible from Earth with the naked eye. During
         which lunar phase is it best observed?
       objectReference: {fileID: 0}
+    - target: {fileID: 5039435353867856790, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: 1 billion years
+      objectReference: {fileID: 0}
     - target: {fileID: 5105675199846674440, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: Third Quarter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5166947616876469930, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5531919285467608183, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_LocalPosition.x
@@ -195,6 +216,14 @@ PrefabInstance:
     - target: {fileID: 7469071562694560419, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: First Quarter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440151761369862684, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: 100 million years
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519895108191309064, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: 3 billion years
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
