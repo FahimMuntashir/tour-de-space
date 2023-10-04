@@ -135,6 +135,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quiz
       objectReference: {fileID: 0}
+    - target: {fileID: 2732598439878485250, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Full Moon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3155239091798427300, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: ' New Moon'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153604159000111738, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Copernicus Crater is easily visible from Earth with the naked eye. During
+        which lunar phase is it best observed?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5105675199846674440, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Third Quarter
+      objectReference: {fileID: 0}
     - target: {fileID: 5531919285467608183, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_LocalPosition.x
       value: 360.0725
@@ -174,6 +191,10 @@ PrefabInstance:
     - target: {fileID: 5531919285467608183, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7469071562694560419, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: First Quarter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
