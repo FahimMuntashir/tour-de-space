@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
     public int NextSceneNumber;
 
-    [SerializeField] TextMeshProGUI timerText;
+    [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
 
     // Update is called once per frame
@@ -22,6 +22,8 @@ public class Timer : MonoBehaviour
         {
             remainingTime = 0;
             SceneManager.LoadScene(NextSceneNumber);
-        }    
+        }
+        int minutes = Mathf.FloorToInt(remainingTime / 60);
+        int seconds = Mathf.FloorToInt(remainingTime % 60);    
     }
 }
