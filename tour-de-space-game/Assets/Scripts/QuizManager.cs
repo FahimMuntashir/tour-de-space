@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class QuizManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject[] Levels;
+    public GameObject ResetScreen,End; 
+
+    int currentLevel;
+
+
+    public void wrongAnswer()
     {
-        
+        ResetScreen.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ResetGame()
     {
-        
+        Application.LoadLevel(Application.loadedLevel);
     }
+
+    public void correctAnswer()
+    {
+        if(currentLevel + 1 != Levels.Length)
+        {
+            Levels[currentLevel].SetActive(false);
+
+            currentLevel++;
+            Levels[currentLevel].SetActive(true);
+        }
+        else
+        {
+            End.SetActive(true);
+            Levels[currentLevel].SetActive(false);
+        }
+    }
+
 }
