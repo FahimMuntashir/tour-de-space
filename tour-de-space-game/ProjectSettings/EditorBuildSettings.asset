@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MoonQuizScene.unity
     guid: d747b1de30fe24c4384f50f8e48e15ed
+  - enabled: 1
+    path: Assets/Scenes/ThankYou.unity
+    guid: eebfa1f3d37ffa14791af309856738d2
   m_configObjects: {}
