@@ -317,6 +317,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 683232013938355843, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: NextSceneNumber
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1590119360375151380, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_Name
       value: Quiz
