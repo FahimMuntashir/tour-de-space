@@ -135,21 +135,59 @@ PrefabInstance:
       propertyPath: m_text
       value: 5 billion years
       objectReference: {fileID: 0}
+    - target: {fileID: 987755692528450659, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Approximately 590 kilometers
+      objectReference: {fileID: 0}
     - target: {fileID: 1590119360375151380, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_Name
       value: Quiz
       objectReference: {fileID: 0}
     - target: {fileID: 1801394046616611843, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1817433238472451726, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1827578095771339698, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056860750011083008, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: correctAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521625618746397994, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Lunar Maria
       objectReference: {fileID: 0}
     - target: {fileID: 2732598439878485250, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: Full Moon
       objectReference: {fileID: 0}
+    - target: {fileID: 2932165872048646683, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Approximately 52 kilometers
+      objectReference: {fileID: 0}
     - target: {fileID: 3155239091798427300, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: ' New Moon'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214706498939058546, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Approximately 93 kilometers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307824152950552764, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Apollo 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000786156523699655, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Copernicus Crater played a significant role in lunar exploration. Which
+        Apollo mission conducted a flyover of Copernicus Crater before landing on
+        the Moon's surface?
       objectReference: {fileID: 0}
     - target: {fileID: 4067831508067986379, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
@@ -161,6 +199,23 @@ PrefabInstance:
       value: Copernicus Crater is easily visible from Earth with the naked eye. During
         which lunar phase is it best observed?
       objectReference: {fileID: 0}
+    - target: {fileID: 4208726909043118964, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Which prominent feature within Copernicus Crater has a central peak
+        rising from the crater floor?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4583595900604507628, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: ' Apollo 12'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728602272549596303, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Apollo 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5003497141621710817, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Approximately 250 kilometers
+      objectReference: {fileID: 0}
     - target: {fileID: 5039435353867856790, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: 1 billion years
@@ -171,7 +226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5166947616876469930, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211206037448528294, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Apollo 16
       objectReference: {fileID: 0}
     - target: {fileID: 5531919285467608183, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_LocalPosition.x
@@ -213,6 +272,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6256858029055160312, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509964486356807490, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Central Uplift
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597658079796586266, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: wrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746150847021910906, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Sinus Iridum
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960417763454250203, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: What is the diameter of Copernicus Crater in kilometers?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349906404482386009, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7467834354123804152, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7469071562694560419, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: First Quarter
@@ -224,6 +311,10 @@ PrefabInstance:
     - target: {fileID: 8519895108191309064, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: 3 billion years
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981593650230197606, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_text
+      value: Rupes Altai
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
