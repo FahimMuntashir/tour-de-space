@@ -21,6 +21,8 @@ public class Timer : MonoBehaviour
         else if (remainingTime < 0)
         {
             remainingTime = 0;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene(NextSceneNumber);
         }
         

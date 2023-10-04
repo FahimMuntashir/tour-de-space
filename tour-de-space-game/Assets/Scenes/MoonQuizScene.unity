@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 5 billion years
       objectReference: {fileID: 0}
+    - target: {fileID: 683232013938355843, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: NextSceneNumber
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 987755692528450659, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_text
       value: Approximately 590 kilometers
