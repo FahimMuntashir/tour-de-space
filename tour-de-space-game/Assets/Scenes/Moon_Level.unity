@@ -214,6 +214,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5569525140346470384, guid: 3295352327b9fc045b21fc5561883318, type: 3}
   m_PrefabInstance: {fileID: 473615626}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &496070152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6151904464340496061, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_Name
+      value: Sign_board (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: DisplayText
+      value: Copernicus Crater's floor boasts diverse rock formations, primarily
+        basalt, and a central uplift known as the Central Uplift. It's best observed
+        during the Moon's first quarter phase, and it played a crucial role in lunar
+        exploration, with the Apollo 12 mission conducting a flyover before landing
+        on the Moon's surface. This remarkable lunar feature, along with the Moon
+        itself, continues to inspire astronomers and explorers alike, unlocking the
+        secrets of our celestial neighbor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3323.1562
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 119.07483
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 460.643
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46f46605314387d469c3e022e86f987c, type: 3}
 --- !u!1001 &527368311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1081,3 +1148,4 @@ SceneRoots:
   - {fileID: 943208510}
   - {fileID: 1802158567}
   - {fileID: 527368311}
+  - {fileID: 496070152}
