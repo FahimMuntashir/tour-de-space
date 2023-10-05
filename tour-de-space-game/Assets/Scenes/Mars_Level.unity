@@ -941,7 +941,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1220410902}
-  DisplayText: This is the text to be displayed.
+  DisplayText: The Mars Rover Curiosity, a remarkable mission spearheaded by NASA,
+    landed on the Red Planet's surface on July 4, 2012, after a daring entry that
+    included the "Seven Minutes of Terror" descent. This state-of-the-art rover,
+    designed for a mission duration of three years, is equipped with a suite of scientific
+    instruments, including SAM (Sample Analysis at Mars), ChemCam, and DAN (Dynamic
+    Albedo of Neutrons), to investigate the Martian environment. Curiosity's primary
+    mission objective is to search for signs of past or present microbial life, and
+    it has made significant discoveries, including ancient riverbeds and lake deposits,
+    which suggest Mars may have been habitable in the past
 --- !u!65 &1210368809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1291,7 +1299,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1220410902}
-  DisplayText: This is the text to be displayed.
+  DisplayText: Mars Rover Curiosity continues to traverse the Martian landscape,
+    studying the diverse geology and terrain of Gale Crater, a 100-kilometer-wide
+    impact crater that was selected as its landing site due to its potential to provide
+    valuable insights into Mars' history and the presence of water-related minerals.
+    With its six wheels and central mission destination of Mount Sharp (Aeolis Mons)
+    within Gale Crater, Curiosity is a vital part of NASA's Mars exploration efforts,
+    having successfully operated well beyond its initial mission duration.
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
