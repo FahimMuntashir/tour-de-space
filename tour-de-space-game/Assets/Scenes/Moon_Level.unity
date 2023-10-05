@@ -227,6 +227,10 @@ PrefabInstance:
       value: Sign_board (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: textMesh
+      value: 
+      objectReference: {fileID: 943208514}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: DisplayText
       value: Copernicus Crater's floor boasts diverse rock formations, primarily
         basalt, and a central uplift known as the Central Uplift. It's best observed
@@ -293,6 +297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign_board
       objectReference: {fileID: 0}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: textMesh
+      value: 
+      objectReference: {fileID: 943208514}
     - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: DisplayText
       value: 'The Moon, located at an average distance of 238,855 miles from Earth,
@@ -611,6 +619,17 @@ MonoBehaviour:
   NextSceneNumber: 4
   timerText: {fileID: 1962956889}
   remainingTime: 60
+--- !u!114 &943208514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+  m_PrefabInstance: {fileID: 943208510}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1166398071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5561321052038561272, guid: 25bf675b917e75341a38235f1fd3c919, type: 3}
