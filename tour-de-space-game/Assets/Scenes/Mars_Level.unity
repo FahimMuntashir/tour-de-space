@@ -1080,6 +1080,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 876.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 382
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000015259
+      objectReference: {fileID: 0}
     - target: {fileID: 5718064684694805149, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1094,19 +1110,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_margin.w
-      value: -164.68169
+      value: -2.5231934
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_margin.x
-      value: -339.529
+      value: 2.8055725
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_margin.y
-      value: -164.68164
+      value: 0.75276184
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_margin.z
-      value: -341.56207
+      value: 0.77246094
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontSizeBase
