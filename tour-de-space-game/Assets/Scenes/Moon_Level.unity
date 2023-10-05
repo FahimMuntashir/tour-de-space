@@ -586,7 +586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextSceneNumber: 4
   timerText: {fileID: 1962956889}
-  remainingTime: 10
+  remainingTime: 60
 --- !u!1 &1166398071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5561321052038561272, guid: 25bf675b917e75341a38235f1fd3c919, type: 3}
