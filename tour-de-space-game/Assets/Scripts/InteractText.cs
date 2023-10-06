@@ -7,11 +7,13 @@ using TMPro;
 public class InteractText : MonoBehaviour
 {
     public TextMeshProUGUI textMesh;
+    public GameObject TextPanel;
     public string DisplayText = "This is the text to be displayed.";
 
     void OnTriggerEnter ()
     {
         textMesh.text = "Press 'E' to interact";
+        TextPanel.SetActive(true);
     }
 
     void OnTriggerStay ()
@@ -19,11 +21,13 @@ public class InteractText : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             textMesh.text = DisplayText;
+            TextPanel.SetActive(true);
         }
     }
 
     void OnTriggerExit ()
     {
         textMesh.text = "";
+        TextPanel.SetActive(false);
     }
 }
