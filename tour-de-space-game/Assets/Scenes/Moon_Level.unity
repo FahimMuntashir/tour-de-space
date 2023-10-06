@@ -550,15 +550,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 876.4
+      value: 444.0048
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 382
+      value: 194.2697
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.7694
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -570,11 +570,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7011786884998163388, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_text
       value: text
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_fontSize
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontColor.b
@@ -587,6 +591,10 @@ PrefabInstance:
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontColor.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontColor32.rgba

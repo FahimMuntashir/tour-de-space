@@ -674,15 +674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1220410902}
   TextPanel: {fileID: 1275205803}
-  DisplayText: The Mars Rover Curiosity, a remarkable mission spearheaded by NASA,
-    landed on the Red Planet's surface on July 4, 2012, after a daring entry that
-    included the "Seven Minutes of Terror" descent. This state-of-the-art rover,
-    designed for a mission duration of three years, is equipped with a suite of scientific
-    instruments, including SAM (Sample Analysis at Mars), ChemCam, and DAN (Dynamic
-    Albedo of Neutrons), to investigate the Martian environment. Curiosity's primary
-    mission objective is to search for signs of past or present microbial life, and
-    it has made significant discoveries, including ancient riverbeds and lake deposits,
-    which suggest Mars may have been habitable in the past
+  DisplayText: The mars Rover 'Curiosity'
 --- !u!65 &1210368809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -846,6 +838,78 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7011786884998163388, guid: e413195fedf55e74699793395b6c4f10, type: 3}
   m_PrefabInstance: {fileID: 1220410901}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1357317585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6151904464340496061, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_Name
+      value: Sign_board (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: textMesh
+      value: 
+      objectReference: {fileID: 1220410902}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: TextPanel
+      value: 
+      objectReference: {fileID: 1275205803}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: DisplayText
+      value: The rover studied the diverse geology and terrain of Gale Crater, a
+        100-kilometer-wide impact crater that was selected as its landing site due
+        to its potential to provide valuable insights into Mars' history and the
+        presence of water-related minerals
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.4516
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 259.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.19018821
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.19012183
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6811776
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6809399
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 148.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46f46605314387d469c3e022e86f987c, type: 3}
 --- !u!1 &1409074588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b9022e743dfba945bce76cbcdd95234, type: 3}
@@ -873,6 +937,77 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &1524326774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6151904464340496061, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_Name
+      value: Sign_board (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: textMesh
+      value: 
+      objectReference: {fileID: 1220410902}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: TextPanel
+      value: 
+      objectReference: {fileID: 1275205803}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: DisplayText
+      value: The Mars Rover Curiosity, a remarkable mission spearheaded by NASA,
+        landed on the Red Planet's surface on July 4, 2012, after a daring entry
+        that included the "Seven Minutes of Terror" descent.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.4516
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 211.35414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.19018821
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.19012183
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6811776
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6809399
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 148.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46f46605314387d469c3e022e86f987c, type: 3}
 --- !u!1001 &7751134075420168143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -893,17 +1028,21 @@ PrefabInstance:
       propertyPath: TextPanel
       value: 
       objectReference: {fileID: 1275205803}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: DisplayText
+      value: Welcome to Gale Crater, the landing site of the mars rover Curiosity
+      objectReference: {fileID: 0}
     - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3922195
+      value: -71
       objectReference: {fileID: 0}
     - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.4516
+      value: 25.5
       objectReference: {fileID: 0}
     - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 211.35414
+      value: 345.3
       objectReference: {fileID: 0}
     - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -950,3 +1089,5 @@ SceneRoots:
   - {fileID: 1220410901}
   - {fileID: 1210368806}
   - {fileID: 7751134075420168143}
+  - {fileID: 1524326774}
+  - {fileID: 1357317585}
