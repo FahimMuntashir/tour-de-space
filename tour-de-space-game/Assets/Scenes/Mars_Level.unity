@@ -941,7 +941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1220410902}
-  TextPanel: {fileID: 0}
+  TextPanel: {fileID: 1275205803}
   DisplayText: The Mars Rover Curiosity, a remarkable mission spearheaded by NASA,
     landed on the Red Planet's surface on July 4, 2012, after a daring entry that
     included the "Seven Minutes of Terror" descent. This state-of-the-art rover,
@@ -1081,17 +1081,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3373140544136263073, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 876.4
+      value: 435
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 382
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1099,7 +1103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5718064684694805149, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_Name
@@ -1107,7 +1111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_text
-      value: 
+      value: Text
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontSize
@@ -1152,6 +1156,14 @@ PrefabInstance:
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1223,7 +1235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1275205804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1232,7 +1244,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275205803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1256,7 +1268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.43137255}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.23529412}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1324,6 +1336,10 @@ PrefabInstance:
       propertyPath: textMesh
       value: 
       objectReference: {fileID: 1220410902}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: TextPanel
+      value: 
+      objectReference: {fileID: 1275205803}
     - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.3922195
