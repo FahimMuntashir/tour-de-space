@@ -231,6 +231,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 943208514}
     - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: TextPanel
+      value: 
+      objectReference: {fileID: 943208515}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: DisplayText
       value: Copernicus Crater's floor boasts diverse rock formations, primarily
         basalt, and a central uplift known as the Central Uplift. It's best observed
@@ -301,6 +305,10 @@ PrefabInstance:
       propertyPath: textMesh
       value: 
       objectReference: {fileID: 943208514}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: TextPanel
+      value: 
+      objectReference: {fileID: 943208515}
     - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
       propertyPath: DisplayText
       value: 'The Moon, located at an average distance of 238,855 miles from Earth,
@@ -554,15 +562,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3704799993938730419, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000015259
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 5718064684694805149, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7011786884998163388, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_text
-      value: 
+      value: text
       objectReference: {fileID: 0}
     - target: {fileID: 7278889227389533689, guid: e413195fedf55e74699793395b6c4f10, type: 3}
       propertyPath: m_fontColor.b
@@ -630,6 +642,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &943208515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7011786884998163388, guid: e413195fedf55e74699793395b6c4f10, type: 3}
+  m_PrefabInstance: {fileID: 943208510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1166398071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5561321052038561272, guid: 25bf675b917e75341a38235f1fd3c919, type: 3}
