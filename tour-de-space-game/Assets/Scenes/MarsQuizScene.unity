@@ -325,6 +325,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quiz
       objectReference: {fileID: 0}
+    - target: {fileID: 1801394046616611843, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1817433238472451726, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5166947616876469930, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5531919285467608183, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_LocalPosition.x
       value: 360.0725
@@ -363,6 +375,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5531919285467608183, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349906404482386009, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7467834354123804152, guid: 531fc25089e022d4cb7c648b1ce71760, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
