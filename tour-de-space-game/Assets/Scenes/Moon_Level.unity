@@ -659,6 +659,75 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7011786884998163388, guid: e413195fedf55e74699793395b6c4f10, type: 3}
   m_PrefabInstance: {fileID: 943208510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1082224213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6151904464340496061, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_Name
+      value: Sign_board (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: textMesh
+      value: 
+      objectReference: {fileID: 943208514}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: TextPanel
+      value: 
+      objectReference: {fileID: 943208515}
+    - target: {fileID: 6690125375256929363, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: DisplayText
+      value: Welcome to Copernicus Crater.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3555.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -160.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779083096464028679, guid: 46f46605314387d469c3e022e86f987c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46f46605314387d469c3e022e86f987c, type: 3}
 --- !u!1 &1166398071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5561321052038561272, guid: 25bf675b917e75341a38235f1fd3c919, type: 3}
@@ -1220,4 +1289,5 @@ SceneRoots:
   - {fileID: 943208510}
   - {fileID: 1802158567}
   - {fileID: 527368311}
+  - {fileID: 1082224213}
   - {fileID: 496070152}
