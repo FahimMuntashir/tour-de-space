@@ -154,7 +154,10 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.tour-de-space-game
+    Android: com.GalaxyInvaders.tourdespacegame
+    Standalone: com.GalaxyInvaders.tour-de-space-game
+    iPhone: com.GalaxyInvaders.tour-de-space-game
+    tvOS: com.GalaxyInvaders.tour-de-space-game
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -877,7 +880,8 @@ PlayerSettings:
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel:
